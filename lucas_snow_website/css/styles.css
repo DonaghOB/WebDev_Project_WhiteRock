@@ -9,10 +9,12 @@ header {
     width:100%;
 }
 
-body{
- background-color: #ffffff;
+body {
+    height: 100%;
+    width : 100%; 
 
 }
+
 main {
     margin-top: 100px; /* Adjust based on header height */
     margin-bottom: 60px; /* Adjust based on footer height */
@@ -22,6 +24,14 @@ main {
     width : 100%;
     position :absolute;
     left: 0;
+}
+
+main h1 {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #ffffff;
 }
 
 
@@ -48,4 +58,27 @@ footer {
 li {
   display: inline;
   margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.introduction {
+    
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+#quiz_button{
+  font-size: 30px;
+  cursor: pointer;
 }
