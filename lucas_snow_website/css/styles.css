@@ -1,6 +1,6 @@
 header {
 
-    background-color: #f8f9fa;
+    background-color: #FFFFFF;
    /* padding: 20px;*/
     text-align: center;
     position:absolute;
@@ -10,15 +10,26 @@ header {
 }
 
 body{
- background-color: aqua;
+ background-color: #ffffff;
 
 }
+main {
+    margin-top: 100px; /* Adjust based on header height */
+    margin-bottom: 60px; /* Adjust based on footer height */
+    padding: 20px;
+    min-height: calc(100vh - 160px); 
+    background-color: #A3C3DC;
+    width : 100%;
+    position :absolute;
+    left: 0;
+}
+
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
 
@@ -26,10 +37,10 @@ ul {
 
 footer {
 
-    background-color: #f8f9fa;
+    background-color: #FFFFFF;
    /* padding: 20px;*/
     text-align: center;
-    position:absolute;
+    position:fixed;
     bottom:0;
     left: 0;
     width:100%;
