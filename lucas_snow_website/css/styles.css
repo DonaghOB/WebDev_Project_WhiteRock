@@ -11,7 +11,7 @@ header {
 
 body {
     height: 100%;
-    width : 100%; 
+    /*width : 100%; */
 
 }
 
@@ -21,8 +21,8 @@ main {
     padding: 20px;
     min-height: calc(100vh - 160px); 
     background-color: #A3C3DC;
-    width : 100%;
-    position :absolute;
+    /* /*width : 100%;* */
+   /* position :absolute;*/
     left: 0;
 }
 
