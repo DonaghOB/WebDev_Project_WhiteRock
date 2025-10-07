@@ -31,12 +31,31 @@
             <p><img src="img/ski-image.jpeg"></p>
         </div>
 
+
+        <form id="contact-form" action="mailto:" onsubmit="return process()">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="fname">Any comment you have:</label><br>
+            <textarea id="TAComments" name="Comments" rows="5" cols="50"></textarea>
+            <input type="submit" value="Submit" onclick="formSubmit()">
+            </form>
+
     </main>
 
     <footer>
         <p>&copy; 2024 Lucas Snow. All rights reserved.</p>
 
     </footer>
+
+      <script> 
+		function formSubmit(){
+		alert("Thank you! Your information has been submitted.");
+		}
+		</script>
 
 </body>
 
