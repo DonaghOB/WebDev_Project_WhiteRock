@@ -106,6 +106,16 @@ a:hover {
 
   /* Quiz Page*/
 
+  #quiz_header{
+    color: #000000;
+  }
+
+  #quiz_explain{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+
    .question {
       margin-bottom: 30px;
       text-align: center;
