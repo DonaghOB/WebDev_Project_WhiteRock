@@ -103,3 +103,55 @@ a:hover {
     padding-top: 5%;
     float: right;
   }
+
+  /* Quiz Page*/
+
+   .question {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .question p{
+      font-size: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0;
+      text-align: left;
+      margin-left: 40%;
+    }
+
+    input[type="radio"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #888;
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      margin-right: 10px;
+      vertical-align: middle;
+      transition: background 0.3s;
+    }
+
+    input[type="radio"]:checked {
+      background-color: #05008e; 
+    }
+
+    #submit_button {
+      margin-left: 46%;
+      margin-right: 46%;
+      padding: 10px 20px;
+      background-color: #05008e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #submit_button:hover {
+      background-color: #3283da;
+    }
