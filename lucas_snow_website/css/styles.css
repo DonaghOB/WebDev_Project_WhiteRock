@@ -83,7 +83,7 @@ header a.active {
 }
 
 #quiz_button{
-  
+  text-align: center;
   font-size: 30px;
   cursor: pointer;
 }
@@ -169,7 +169,30 @@ header a.active {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+   h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333333;
+
+
+   }
+
+   #Resorts {
+    justify-content: center;
+    margin-top: 20px;
+
+   }
+
+   .resort {
+    
+    float: left;
+   width: 27%;
+  padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color: #f0f0f0;
+   }
