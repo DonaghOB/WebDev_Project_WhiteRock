@@ -89,15 +89,13 @@ header a.active {
     color: #333333;
 }
 
-<<<<<<< HEAD
-#quiz_button{
+#quiz_button {
   text-align: center;
   font-size: 30px;
   cursor: pointer;
-=======
-.quiz_button{
+}
+.quiz_button {
   font-size: 22px;
->>>>>>> ae5a0804e031c6bb46a2a8bc69f2b4f94c9a6e6c
 }
 
 .quiz_button button{
@@ -183,7 +181,7 @@ header a.active {
 
     #submit_button:hover {
       background-color: #3283da;
-<<<<<<< HEAD
+
     }
 
     .contact-form {
@@ -222,6 +220,3 @@ header a.active {
     text-align: center;
     background-color: #f0f0f0;
    }
-=======
-    }
->>>>>>> ae5a0804e031c6bb46a2a8bc69f2b4f94c9a6e6c
