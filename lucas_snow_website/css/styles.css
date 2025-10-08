@@ -89,12 +89,13 @@ header a.active {
     color: #333333;
 }
 
-#quiz_button{
-  
-  font-size: 30px;
-  cursor: pointer;
+.quiz_button{
+  font-size: 22px;
 }
 
+.quiz_button button{
+   cursor: pointer;
+}
 
 .container {
     display: flex;
