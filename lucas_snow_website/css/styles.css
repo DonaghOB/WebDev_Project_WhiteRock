@@ -83,6 +83,7 @@ header a.active {
 }
 
 #quiz_button{
+  
   font-size: 30px;
   cursor: pointer;
 }
@@ -168,3 +169,7 @@ header a.active {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
