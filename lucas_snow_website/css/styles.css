@@ -250,3 +250,9 @@ header a.active {
       width: 200px;
       text-align: center;
     }
+    .card img {
+      width: 120px;
+      height: 160px;
+      
+      border-radius: 8px;
+    }
