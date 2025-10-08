@@ -256,3 +256,12 @@ header a.active {
       
       border-radius: 8px;
     }
+    .review_cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    }
+
+
+  
