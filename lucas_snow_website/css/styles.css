@@ -263,5 +263,11 @@ header a.active {
     margin-top: 20px;
     }
 
+    .resort img {
+      width: 200px;
+      height: 180px;
+      border-radius: 8px;
+    }
+
 
   
