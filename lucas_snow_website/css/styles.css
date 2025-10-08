@@ -1,13 +1,43 @@
 header {
-
-    background-color: #FFFFFF;
-   /* padding: 20px;*/
-    text-align: center;
-    position:absolute;
-    top:0;
-    left: 0;
-    width:100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-menu li {
+  display: inline;
+}
+
+#nav-menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+#nav-menu a:hover {
+  color: #ff0000;
+}
+
 
 body {
     height: 100%;
@@ -36,16 +66,6 @@ main h1 {
 
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-
-}
-
 footer {
 
     background-color: #FFFFFF;
@@ -56,20 +76,7 @@ footer {
     left: 0;
     width:100%;
 }
-li {
-  display: inline;
-  margin: 0 15px;
-}
 
-a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #ff0000;
-}
 header a.active {
   color: #ff0000;
 }
@@ -82,12 +89,20 @@ header a.active {
     color: #333333;
 }
 
+<<<<<<< HEAD
 #quiz_button{
   text-align: center;
   font-size: 30px;
   cursor: pointer;
+=======
+.quiz_button{
+  font-size: 22px;
+>>>>>>> ae5a0804e031c6bb46a2a8bc69f2b4f94c9a6e6c
 }
 
+.quiz_button button{
+   cursor: pointer;
+}
 
 .container {
     display: flex;
@@ -108,7 +123,17 @@ header a.active {
     float: right;
   }
 
-  /* Quiz Page*/
+    /* Quiz Page*/
+
+  #quiz_header{
+    color: #000000;
+  }
+
+  #quiz_explain{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
 
    .question {
       margin-bottom: 30px;
@@ -158,6 +183,7 @@ header a.active {
 
     #submit_button:hover {
       background-color: #3283da;
+<<<<<<< HEAD
     }
 
     .contact-form {
@@ -196,3 +222,6 @@ header a.active {
     text-align: center;
     background-color: #f0f0f0;
    }
+=======
+    }
+>>>>>>> ae5a0804e031c6bb46a2a8bc69f2b4f94c9a6e6c
