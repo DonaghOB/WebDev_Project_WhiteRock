@@ -51,6 +51,7 @@ main {
     padding: 20px;
     min-height: calc(100vh - 160px); 
     background-color: #A3C3DC;
+    text-align: center;
     /* /*width : 100%;* */
    /* position :absolute;*/
     left: 0;
@@ -81,13 +82,8 @@ header a.active {
   color: #ff0000;
 }
 
-.introduction {
-    
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.2em;
-    color: #333333;
-}
+
+/* Index page*/
 
 .quiz_button{
   font-size: 22px;
@@ -97,26 +93,38 @@ header a.active {
    cursor: pointer;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-  }
-  img {
-    padding-left: 10px;
-    padding-top: 50%;
-    max-width: 75%;
-    max-height:75%;
-    float: left;
-  }
-  
-  .text {
-    font-size: 20px;
-    padding-top: 5%;
-    float: right;
-  }
+#main_image{
 
-    /* Quiz Page*/
+  margin-top: 20px;
+  width: 800px;
+  background-color: #ff0000;
+  
+}
+
+
+/*about page*/
+.about_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 200px;
+  padding: 20px;
+}
+
+.about_image img {
+  width: 400px;
+  height: auto;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.about_text {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+    /* Quiz Page */
 
   #quiz_header{
     color: #000000;
