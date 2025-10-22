@@ -107,6 +107,40 @@ header a.active {
 }
 
 
+.guides {
+  text-align: center;
+  color: white;
+}
+
+.guides h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.guides-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.guide_container,
+.guide_container_2 {
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.guide_container img,
+.guide_container_2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+
 /*about page*/
 .about_container {
   display: flex;
@@ -127,6 +161,8 @@ header a.active {
   font-size: 20px;
   line-height: 1.6;
 }
+
+
 
 
     /* Quiz Page */
