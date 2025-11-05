@@ -171,15 +171,14 @@ header a.active {
 
 /*about page*/
 .about_container {
-  display: flex;
+  display: inline-block;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 200px;
   padding: 20px;
 }
 
 .about_image img {
-  width: 400px;
+  width: 50%;
   height: auto;
   padding-top: 50px;
   border-radius: 10px;
