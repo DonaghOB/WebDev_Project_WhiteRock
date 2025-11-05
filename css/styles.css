@@ -96,6 +96,7 @@ header a.active {
 
 .quiz_button button{
    cursor: pointer;
+   font-size: 25px;
 }
 
 #main_image{
