@@ -328,37 +328,23 @@ header a.active {
     }
 
 
+    /*destination Page*/
+
+  #Destinations h2{
+    font-size: 20px;
+      color: rgb(4, 4, 4);
+      font-family: "Celtic Hand", cursive;
+      background-color: #ffffff;
+  }
+
+    #Destinations img{
+      width: 30%;
+    }
+
     #World {
       font-size: 30px;
       color: white;
       font-family: Arial, sans-serif;
     }
 
-    #Wickers {
-      font-size: 20px;
-      color: rgb(4, 4, 4);
-      font-family: "Celtic Hand", cursive;
-      background-color: #ffffff;
-
-    }
-
-    #Monterex {
-  font-size: 20px;
-  color: rgb(4, 4, 4);
-  font-family: "Parisienne", cursive;
-  background-color: #ffffff;
-}
-    #Zermo {
-      font-size: 20px;
-      color: rgb(4, 4, 4);
-      font-family: "Mountains of Christmas", cursive;
-      background-color: #ffffff;
-
-    }
-
-
-
-
-
-
-  
+    
