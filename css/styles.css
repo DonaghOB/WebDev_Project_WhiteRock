@@ -116,7 +116,7 @@ header a.active {
 #quiz_button {
   text-align: center;
   font-size: 30px;
-  cursor: pointer;
+  
 }
 .quiz_button {
   font-size: 22px;
@@ -207,6 +207,11 @@ header a.active {
    .question {
       margin-bottom: 30px;
       text-align: center;
+      background-color: white;
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-top: 1%;
+      padding-bottom: 1%;
     }
 
     .question p{
@@ -242,17 +247,16 @@ header a.active {
       margin-left: 46%;
       margin-right: 46%;
       padding: 10px 20px;
-      background-color: #05008e;
       color: white;
       border: none;
-      cursor: pointer;
       font-weight: bold;
       text-align: center;
     }
 
-    #submit_button:hover {
-      background-color: #3283da;
 
+    #submit_button button{
+      cursor: pointer;
+      font-size: 35px;
     }
 
     .contact-form {
@@ -331,10 +335,13 @@ header a.active {
     /*destination Page*/
 
   #Destinations h2{
+    
     font-size: 20px;
       color: rgb(4, 4, 4);
-      font-family: "Celtic Hand", cursive;
+      font-family: "Celtic Hand";
       background-color: #ffffff;
+      margin-left:45%;
+      margin-right: 45%;
   }
 
     #Destinations img{
