@@ -334,7 +334,14 @@ header a.active {
 
     /*destination Page*/
 
-  #Destinations h2{
+  .Destinations {
+    
+   display: flex;
+   flex-direction: column;
+    
+  }
+
+  .Destinations h2{
     
     font-size: 20px;
       color: rgb(4, 4, 4);
@@ -344,9 +351,18 @@ header a.active {
       margin-right: 45%;
   }
 
-    #Destinations img{
-      width: 30%;
+    .Destinations img{
+      width: 400px;
+      height: 300px;
     }
+
+    .Destinations div {
+
+    margin: 10px;
+    padding: 15px;
+    font-size: 23px;
+    }
+    
 
     #World {
       font-size: 30px;
