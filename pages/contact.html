@@ -41,15 +41,15 @@
             <input type="email" id="email" name="email" required><br>
            
             <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
+            <input type="tel" id="phone" name="phone" required aria-describedby="phone-error"><br><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="30"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit">
             </form>
-            <p id="success-message" style="color: green; font-size: 1em;"></p>
-            <p id="phone-error" style="color: red; font-size: 0.9em;"></p>
+            <p id="success-message" style="color: green; font-size: 1em;" role="status"></p>
+            <p id="phone-error" style="color: red; font-size: 0.9em;" role="alert"></p>
             
         
         </div>
