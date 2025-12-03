@@ -36,17 +36,24 @@
         <div class="contact-form">
         <form id="contact-form">
             <label for="name">Name:</label><br>
-            <input type="name" id="name" name="name" required><br>
+            <input type="text" id="name" name="name" required><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
-            <label for="phone number">Phone Number:</label><br>
-            <input type="phone number" id="phone number" name="phone number" required><br><br>
+           
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="30"></textarea>
             <br>
             <br>
-            <input type="submit" value="Submit" onclick="formSubmit()">
-            </form></div>
+            <input type="submit" value="Submit">
+            </form>
+            <p id="success-message" style="color: green; font-size: 1em;"></p>
+            <p id="phone-error" style="color: red; font-size: 0.9em;"></p>
+            
+        
+        </div>
+
 
     </main>
 
@@ -55,12 +62,8 @@
 
     </footer>
 
-      <script> 
-		function formSubmit(){
-		alert("Thank you! Your information has been submitted.");
-		}
-		</script>
-
+<script src="../main.js"></script>
 </body>
 
 </html>
+
